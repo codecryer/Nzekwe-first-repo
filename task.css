@@ -1,0 +1,135 @@
+/* .container{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+#task-form{
+    background-color: rgb(31, 18, 4);
+    color: aliceblue;
+}
+.row{
+    display: flex;
+
+}
+#task-title{
+    font-size: 20px;
+    color:black;
+}
+ul{
+    background:white;
+    color: black;
+    padding: 20px;
+
+
+}
+ul li{
+   background:whitesmoke;
+   margin: 5px;
+
+}
+.clear-tasks btn black{
+    display: flex;
+    background-color: black;
+} */
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/pexels-photo-1603726.jpeg) ;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+
+}
+ul li{
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 2px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color:green;
+}
+ul li ul li{
+    display: none;;
+}
+ul li:hover ul li{
+    display: block;
+}
+.supliment{
+    width: 70%;
+    height: 50px;
+    font-size:40px;
+    font-weight: bold;
+    color: antiquewhite;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-form{
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 2px solid green;
+}
+.form1{
+    font-size: 20px;
+    color: green;
+}
+#product{
+    height: 45px;
+    width: 350px;
+}
+#quantity{
+    height: 45px;
+    width: 350px;
+}
+#cost{
+    height: 45px;
+    width: 350px;
+}
+#delivery{
+    height: 45px;
+    width: 350px;
+}
+label{
+    font-weight: bold;
+    font-size: 50px;
+}
+button{
+    font-weight: bold;
+    background-color: green;
+    color: floralwhite;
+    height: 35px;
+    width: 100px;
+}
+
+
